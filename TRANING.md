@@ -33,3 +33,67 @@
     </div>
   </body>
 </html>
+
+*,
+html{
+  margin:0;
+  padding:0;
+}
+
+.NAVBAR{
+  background-color:red;
+  width:100%;
+  height:5vh;
+  font-size:25px;
+ }
+ 
+ .ul-Navbar{
+   display:flex;
+   height:50px;
+   justify-content: center ;
+   align-content: center;
+ }
+ 
+ .li-Navbar{
+   list-style: none;
+   padding:10px;
+   color:white;
+   font-size:20px;
+ }
+ 
+ .li-Navbar:hover{
+   background-color:#0066CC;
+   
+ }
+
+ .a-content{
+ color:white;
+ text-decoration:none;
+ font-size:21px;
+ }
+ 
+.ul-content{
+  color:white;
+}
+ 
+ .CONTENT{
+   background-color:#333;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:91vh;
+ }
+ .img-content{
+   width:300;
+   height:250px;
+   
+ }
+ 
+ 
+.FOOOTER{
+ background-color: red;
+ display:flex;
+ justify-content:center;
+ align-content:center;
+ height:42px;
+}
